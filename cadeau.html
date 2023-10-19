@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="">
+  <header class="flex items-center justify-between mx-10 border-b-4 py-4 border-black">
+
+    <img class="w-80 border-black border-2" src="/assets/logo.jpeg" alt="logo">
+
+    <section class="">
+      <p class="font-semibold my-2">Rechercher un bijou</p>
+      <div class="flex border-2 rounded-md p-2 border-placeholder space-x-24">
+        <input class="placeholder:capitalize placeholder:text-txt " type="text" name="searchbar" placeholder="Bague, collier,...">
+        <img class="w-6" src="/assets/search.png" alt="loupe">
+      </div>
+    </section>
+
+    <ul class="list-none flex space-x-6">
+      <li class="flex space-x-2">
+        <p class="text-xl">Nos bijouteries</p>
+        <img class="w-6 h-9" src="/assets/location.png" alt="loc">
+      </li>
+      <li>
+        <img class="w-9" src="/assets/Icône User.png" alt="user">
+      </li>
+      <li>
+        <img class="w-9" src="/assets/coeur.png" alt="coeur">
+      </li>
+      <li>
+        <img class="w-9" src="/assets/panier.png" alt="panier">
+      </li>
+    </ul>
+
+  </header>
+  <nav class="text-4xl mx-10">
+    <ul class="list-none flex space-x-40 items-center justify-between  border-b-4 border-bg-button py-4 pb-8 ">
+      <li class="hover:text-nav-hover">
+        <a href="">Bague</a>
+      </li>
+      <li class="hover:text-nav-hover">
+        <a href="">Collier</a>
+      </li>
+      <li class="hover:text-nav-hover">
+        <a href="">Bras</a>
+      </li class="hover:text-nav-hover">
+      <li>
+        <a href="">Montre</a>
+      </li>
+      <li class="hover:text-nav-hover">
+        <a href="">Évenements</a>
+      </li>
+      <li class="hover:text-nav-hover">
+        <a href="">Tout</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="flex items-center justify-center border-b-2 border-black mx-20 py-4">
+    <div>
+      <h2 class="bold text-3xl py-4">GENRE</h2>
+      <ul>
+        <li class="flex gap-2">
+          <input class=" checked:bg-black" type="checkbox">
+          <p>Homme</p>
+        </li>
+        <li class="flex gap-2">
+          <input type="checkbox">
+          <p>Femme</p>
+        </li>
+        <li class="flex gap-2">
+          <input type="checkbox">
+          <p>Les deux</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <div  class="flex items-center justify-center gap-6 py-6">
+    <h2 class="bold text-3xl py-4">PRIX</h2>
+    <p>MIN:</p>
+    <input class="border-2 border-black" type="number">
+    <p>MAX:</p>
+    <input class="border-2 border-black" type="number">
+  </div>
+
+  <main class="grid grid-cols-3 content-center gap-8">
+
+    <section class="border-2 border-black rounded-lg p-1 bg-bg w-80">
+      <figure class="w-72 bg-bg">
+        <img src="/assets/Cadeaux=Bracelet.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Bracelet cuir tressé et plaque en or blanc</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg w-80">
+      <figure class="w-72">
+        <img src="/assets/Cadeaux=Bague.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl bg-bg">Bague en or pur et filament d'argent</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg  w-80">
+      <figure class="w-72">
+        <img src="/assets/Cadeaux=Montre.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Montre avec lanière en cuir et cadran en acier</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <!--CARD MONTRE-->
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg  w-80">
+      <figure class="w-72">
+        <img src="/assets/montre-argent.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Montre cadran argent avec bracelet en faux cuir</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg  w-80">
+      <figure class="w-72">
+        <img src="/assets/montre=cuir.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Montre cadran acier-cuivre avec braceler en cuivre</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg  w-80">
+      <figure class="w-72">
+        <img src="/assets/montre=or.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Montre couleur or avec cadran couleur or</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <!--CARD BAGUE-->
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg  w-80">
+      <figure class="w-72">
+        <img src="/assets/Bague=gravure.png" alt="cadbra ">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Alliance demi-jonc en argent rhodié, gravable</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg w-80">
+      <figure class="w-72">
+        <img src="/assets/Bague=Or.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4">
+        <p class="text-xl">Bague en or, émeraudes et diamants</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  
+    <section class="border-2 border-black rounded-lg p-1 bg-bg w-80">
+      <figure class="w-72">
+        <img src="/assets/Bague=argent.png" alt="cadbra">
+      </figure>
+      <figcaption class="border-t-2 border-black p-4 bg-bg">
+        <p class="text-xl">Bague en or gris et oxydes de zirconium</p>
+        <div class="flex justify-end">
+          <p class="p-2 mt-8 rounded-lg bg-black text-white w-16">40,00€</p>
+        </div>
+      </figcaption>
+    </section>
+  </main>
+
+</body>
+</html>
