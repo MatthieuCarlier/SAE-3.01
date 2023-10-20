@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valider la commande</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    
+    <main class="bg-white">
+
+        <div class="grid gap-2 m-6 items-center">
+            <h1 class="font-light text-3xl">Valider la commande</h1>
+
+            <div class="">
+                <p class="">Connectez-vous à votre espace personnel “Le Manège à Bijoux” pour suivre l’historique de vos commandes, gérer vos informations personnelles, créer et modifier vos listes de coups de cœur. Pas encore inscrit ? N’hésitez plus !<br>
+                Inscrivez-vous et découvrez tous les avantages d'un compte "Le Manège à Bijoux®" : liste de coups de cœur, historique de commande…
+                    </p>
+            </div>
+        
+        </div>
+        
+        <section class="flex justify-center flex-wrap gap-5">
+
+            <div class="grid m-6 border-2 rounded border-bg-button w-max">
+
+                <div class="grid w-max justify-start text-start grid-rows-4 gap-3 m-5">
+
+                        <!-- NOM -->
+                    <div class="flex items-center space-x-10">
+                        <label for="name" class="text-xs">Nom*</label>
+                        <input type="text" class="rounded border-2 p-2 border-bg-button bg-inherit fill-transparent w-full" name="" id="name">
+                    </div>
+                    
+                        <!-- PRENOM -->
+                    <div class="flex items-center space-x-7">
+                        <label for="first_name" class="text-xs">Prénom*</label>
+                        <input type="text" class="rounded border-2 p-2  border-bg-button bg-inherit w-full h-9" name="" id="first_name">
+                    </div>
+
+                        <!-- TELEPHONE -->
+                    <div class="flex items-center space-x-4">
+                        <label for="phone" class="text-xs">Téléphone*</label>
+                        <select name="" class="p-2 rounded border-2 border-bg-button bg-inherit font-bold" id="phone">
+
+                            <option value="phone_france">+33</option>
+                            <option value="phone_england">+44</option>
+                        
+                        </select>
+                        <input type="tel" class="rounded border-2 p-2 border-bg-button bg-inherit w-full" name="" id="phone">
+                    </div>
+
+                        <!-- E-MAIL -->
+                    <div class="flex items-center space-x-2">
+                        <label for="e-mail" class="text-xs">Adresse e-mail*</label>
+                        <input type="email" class="rounded border-2 p-2 border-bg-button bg-inherit w-72" name="" id="e-mail">
+                    </div>
+
+                </div>
+
+                        <!-- BTN ENVOI -->
+                    <div class="flex justify-center items-center p-3">
+
+                        <input type="submit" class="text-white font-light text-lg bg-bg-button p-1 pr-3 pl-3 rounded-lg w-max border border-bg-button hover:text-txt-button-hover hover:bg-bg-button-hover hover:border-bg-button" value="Valider et payer">
+                    </div>
+            </div>
+
+            <div class="grid w-96 m-6 border-2 rounded border-bg-button">
+
+                <div class="grid w-max justify-center text-start grid-rows-3 m-3">
+
+                    <div class="m-1 space-x-5">
+                        <h1 class="font-light text-xl">J'ai déjà un compte</h1>
+                    </div>
+                        <!-- MP -->
+
+                    <div class="grid m-1 gap-1">
+                        <label for="mp" class="font-bold text-xs">Mot de passe*</label>
+                        <input type="password" class="rounded border-2 p-2 border-bg-button bg-inherit" name="" id="mp">
+                    </div>
+
+                        <!-- E-MAIL -->
+                    <div class="grid m-1">
+                        <label for="e-mail" class="font-bold text-xs">Adresse e-mail*</label>
+                        <input type="email" class="rounded border-2 p-2 border-bg-button bg-inherit" name="" id="e-mail">
+                    </div>
+
+                    <a href="" class="font-light text-sm underline hover:text-bg-button">Mot de passe oublié ?</a>
+
+                    <a href="" class=" font-light text-sm underline hover:text-bg-button">Créer un compte</a>
+
+                </div>
+                
+                 <!-- BTN ENVOI -->
+                 <div class="flex justify-center items-center p-3">
+                    <input type="submit" class="text-white font-light text-lg bg-bg-button p-1 pr-3 pl-3 rounded-lg w-max border border-bg-button hover:text-txt-button-hover hover:bg-bg-button-hover hover:border-bg-button" value="Se connecter et payer">
+                </div>
+            </div>
+
+    </section>
+
+    </main>
+
+</body>
+</html>
