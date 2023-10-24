@@ -21,6 +21,8 @@ module.exports = {
         'border-b': 'hsl(var(--clr-black))',
         'bg-round' : 'hsl(var(--clr-white))',
         'text-white' : 'hsl(var(--clr-white))',
+        'border': 'hsl(var(--clr-gold-600))',
+        'border-black': 'hsl(var(--clr-black))',
       },
     },
   plugins: [],
