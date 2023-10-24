@@ -23,6 +23,7 @@ module.exports = {
         'text-white' : 'hsl(var(--clr-white))',
         'border': 'hsl(var(--clr-gold-600))',
         'border-black': 'hsl(var(--clr-black))',
+        'border-form' : 'hsl(var(--clr-gold-600))',
       },
     },
   plugins: [],
