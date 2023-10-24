@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="font-sans items-center justify-center px-24">
+
+    <h1 class="font-bold text-2xl my-4">MES PANIERS</h1>
+    <p class="text-xs md:text-sm">Les commandes « avec livraison », « click and collect » et « réservation » sont traitées de manières différentes par nos services. Validez le panier de votre choix, les autres paniers restent disponibles avec tous les bijoux sélectionnés!</p>
+
+    <section class=" flex justify-between items-center flex-wrap text-2xl border-b-4 border-bg-button-2 py-4">
+        <p>Bijoux</p>
+    </section>
+
+    <article class="flex justify-between items-center flex-wrap gap-x-44 gap-y-4 border-t-2 border-border-form" >
+        <img class="w-24" src="/assets/Bague=Or.png" alt="">
+        <div>
+            <h3 class="font-bold text-lg">Bague en or jaune et oxyde de zirconium</h3>
+            <p>Référence: 31300881</p>
+            <p class="font-bold">Taille de doigt: 44</p>
+        </div>
+        <p>160€</p>
+        <input class="placeholder:text-placeholder w-20 border-2 border-border-form rounded-lg" type="number" placeholder="1">
+        <p>320€</p>
+        <a class="border-2 border-bg-button-2 hover:bg-bg-button-2 hover:text-text-white px-2 py-1 rounded-lg" href="">Modifier</a>
+        <a class="border-2 border-bg-button-2 hover:bg-bg-button-2 hover:text-text-white px-2 py-1 rounded-lg" href="">Supprimer</a>
+    </article>
+
+    <section class="flex py-8">
+        <div>
+          <ul>
+            <li class="flex gap-2">
+              <input class=" checked:bg-bg-black" type="checkbox">
+              <p>Je souhaite un sac</p>
+            </li>
+            <li class="flex gap-2">
+              <input type="checkbox">
+              <p>J'ajoute un message perso au colis</p>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <section class="flex justify-end border-t-2 border-border-b md:border-t-0">
+      <ul>
+          <li class="p-2"><p class="font-bold">Total TTC</p></li>
+          <li class="p-2"><p>Hors frais de livraison (à partir de 4.51€)</p></li>
+          <li class="p-2"><a class="my-2 border-2 border-bg-button-2 hover:bg-bg-button-2 hover:text-text-button-hover px-2 py-1 rounded-lg" href="">Passer la commande</a></li>
+          <li class="p-2"><a class="my-8 border-2 border-bg-button-2 hover:bg-bg-button-2 hover:text-text-button-hover px-2 py-1 rounded-lg" href="">Click and collect</a></li>
+      </ul>
+    </section>
+
+</body>
+</html>

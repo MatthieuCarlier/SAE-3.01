@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* noir et blanc*/
+        --clr-black: 0 0% 0%;
+        --clr-white: 0 0% 100%;
+
+        /* BLEU */
+        --clr-blue-100: 211 57% 87%;;
+        --clr-blue-100: 211 100% 12%;
+        --clr-blue-200: 211 57% 79%;
+        --clr-blue-300: 211 58% 68%;
+        --clr-blue-400: 211 58% 58%;
+        --clr-blue-500: 211 65% 47%;
+        --clr-blue-600: 211 100% 37%;
+        --clr-blue-700: 211 100% 31%;
+        --clr-blue-800: 211 100% 25%;
+        --clr-blue-900: 211 100% 18%;
+
+        /*OR*/
+        --clr-gold-100: 35 29% 92%;
+        --clr-gold-100: 35 20% 12%;
+        --clr-gold-200: 33 29% 86%;
+        --clr-gold-300: 34 28% 79%;
+        --clr-gold-400: 35 29% 72%;
+        --clr-gold-500: 35 28% 65%;
+        --clr-gold-600: 34 29% 59%;
+        --clr-gold-700: 34 20% 49%;
+        --clr-gold-800: 35 21% 39%;
+        --clr-gold-900: 35 21% 29%;
+
+        /*GRIS*/
+        --clr-gray-100: 0 0% 89%;
+        --clr-gray-100: 0 0% 16%;
+        --clr-gray-200: 0 0% 82%;
+        --clr-gray-300: 0 0% 73%;
+        --clr-gray-400: 0 0% 64%;
+        --clr-gray-500: 0 0% 56%;
+        --clr-gray-600: 0 0% 47%;
+        --clr-gray-700: 0 0% 39%;
+        --clr-gray-800: 0 0% 31%;
+        --clr-gray-900: 0 0% 23%;
+
+        /*ORANGE*/
+        --clr-orange-100: 35 89% 89%;
+        --clr-orange-100: 35 100% 16%;
+        --clr-orange-200: 35 89% 82%;
+        --clr-orange-300: 35 90% 74%;
+        --clr-orange-400: 35 90% 65%;
+        --clr-orange-500: 36 89% 56%;
+        --clr-orange-600: 35 100% 47%;
+        --clr-orange-700: 35 100% 39%;
+        --clr-orange-800: 35 100% 32%;
+        --clr-orange-900: 36 100% 24%;
+    }
+}   
