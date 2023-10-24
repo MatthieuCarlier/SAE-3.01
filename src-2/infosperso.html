@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vos informations personnelles</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="grid justify-center">
+    
+    <section class="grid gap-1 md:gap-5 md:m-5 w-full justify-center">
+
+        <!-- Section title -->
+        <div class="flex justify-center w-full md:gap-64 border-b-4 border-border-black md:m-5">      
+                  <p class="font-bold md:text-xl text-sm p-2">Vos informations personnelles</p>
+                  <p class="font-semibold md:text-sm text-xs p-2">*Champs obligatoires</p>
+
+        </div>
+
+                
+
+            <div class="grid justify-center text-center md:text-start w-full grid-rows-6 md:m-3 md:p-3">
+
+                <!-- E-MAIL -->
+                <div class="flex justify-start items-center space-x-2 pt-5">
+                    <label for="e-mail" class="text-xs">Adresse e-mail*</label>
+                    <input type="email" class="text-xs md:text-base rounded border-2 md:p-2 border-border bg-inherit w-full" name="" id="e-mail">
+                </div>
+
+                <!-- CHOIX GENRE -->
+                <div class="flex justify-start items-center gap-5">
+
+                    <div class="flex gap-3">
+                        <input type="radio" class="" name="genre" id="GenderChoice1" value="Homme">
+                        <label class="text-xs md:text-base" for="GenderChoice1">Homme</label>
+                    </div>
+                    <div class="flex gap-3">
+                        <input type="radio" class="" name="genre" id="GenderChoice2">
+                        <label class="text-xs md:text-base" for="GenderChoice2">Femme</label>
+                    </div>
+
+                </div>
+
+            <!-- NOM -->
+            <div class="flex justify-start items-center space-x-10">
+                <label for="name" class="text-xs">Nom*</label>
+                <input type="text" class="text-xs md:text-base rounded border-2 md:p-2 border-border bg-inherit fill-transparent w-full" name="" id="name">
+            </div>
+            
+                <!-- PRENOM -->
+            <div class="flex justify-start items-center space-x-7">
+                <label for="first_name" class="text-xs">Prénom*</label>
+                <input type="text" class="text-xs md:text-base rounded border-2 md:p-2  border-border bg-inherit w-full md:h-9" name="" id="first_name">
+            </div>
+
+               <!-- DATE DE NAISSANCE -->
+               <div class="flex justify-start items-center space-x-2">
+                <label for="birthday" class="text-xs">Date de naissance*</label>
+                <input type="date" class="rounded border-2 p-2 border-border bg-inherit text-xs md:text-base w-full" name="" id="birthday">
+                </div>
+
+                <!-- CODE POSTAL -->
+                <div class="flex justify-start items-center gap-5">
+                    <label for="e-mail" class="text-xs">Code postal*</label>
+                    <input type="email" class="text-xs md:text-base rounded border-2 md:p-2 border-border bg-inherit w-full" name="" id="e-mail">
+                </div>
+
+                    <!-- TELEPHONE -->
+                <div class="flex justify-start items-center space-x-4">
+                    <label for="phone" class="text-xs">Téléphone*</label>
+                    <select name="" class="text-xs md:text-base md:p-2 rounded border-2 border-border bg-inherit font-bold" id="phone">
+
+                        <option value="phone_france">+33</option>
+                        <option value="phone_england">+44</option>
+                    
+                    </select>
+                    <input type="tel" class="text-xs md:text-base rounded border-2 md:p-2 border-border bg-inherit w-full" name="" id="phone">
+                </div>
+
+                <!-- OFFRES COMMERCIALES -->
+                <div class="flex justify-start text-start">
+                    <p class="text-xs md:text-sm">J'accepte de recevoir les offres commerciales et les newsletters du site <br> <a class="underline text-sm" href="www.lemanegeabijoux.com">www.lemanegeabijoux.com</a> par :</p>
+                </div>
+
+                <!-- COCHE COMMERCIALE -->
+                <div class="text-xs md:text-base flex justify-center">
+
+                    <div class=" md:justify-between w-full">
+                        <label for="">SMS</label>
+                        <input type="checkbox" name="" id="">
+                    </div>
+
+                    <div class="justify-between w-full">
+                        <label for="">Mail</label>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                
+                </div>
+
+                <!-- BTN ENREGISTRER -->
+                <div class="flex justify-center items-center p-3">
+                    <input type="submit" class="text-sm md:text-xl text-text-button-hover font-medium bg-bg-button-hover m-2 p-2 rounded-lg w-max border border-border hover:text-txt-title hover:bg-bg-button hover:border-border" value="Enregistrer">
+                </div>
+
+    </main>
+    <main class="grid justify-center md:justify-start gap-5 w-full">
+
+                <!-- Section CONNAISSANCE -->
+                    <!-- titre -->
+                      <div class="flex md:justify-start justify-center w-full border-b-4 border-border-black">      
+                        <p class="font-bold md:text-xl text-sm p-2">Afin de mieux vous connaître</p>
+      
+                      </div>
+
+        <div class="grid justify-center md:justify-start gap-4 p-3 border border-border rounded-lg w-full">
+
+                  <!-- STATUT MARITAL -->
+                  <select name="" value="" class="text-xs md:text-base p-2 rounded border-2 border-border bg-inherit w-max" id="marital">
+
+                    <option value="Aucun statut">Statut marital</option>
+                    <option value="Celibataire">Célibataire</option>
+                    <option value="Mariee">Marié(e)</option>
+                    <option value="Veuve">Veuve</option>
+                    <option value="Divorcee">Divorcé(e)</option>
+
+                  </select>
+
+                  <p class="text-xs md:text-base font-bold">Avez-vous des enfants ?</p>
+
+                    <!-- CHOIX Y/N -->
+            <div class="flex justify-start gap-5 text-xs md:text-base">
+
+                <div class="flex gap-3">
+                    <input type="radio" class="" name="Choix" id="Choice1">
+                    <label for="yes">Oui</label>
+                </div>
+                <div class="flex gap-3">
+                    <input type="radio" class="" name="Choix" id="Choice2">
+                    <label for="No">Non</label>
+                </div>
+
+            </div>
+
+            <!-- BTN ENREGISTRER -->
+            <div class="flex justify-center items-center p-3">
+                <input type="submit" class="text-text-button-hover font-medium text-sm md:text-xl bg-bg-button-hover m-2 p-2 rounded-lg w-max border border-border hover:text-txt-title hover:bg-bg-button hover:border-border" value="Enregistrer">
+            </div>
+
+        </div>
+
+    </main>
+    <main class="gap-5 grid md:justify-start justify-center w-full">
+
+        <!-- titre -->
+        <div class="flex md:justify-start justify-center w-full gap-64 border-b-4 border-border-black">      
+            <p class="font-bold md:text-xl text-sm p-2">Votre mot de passe</p>
+
+          </div>
+
+        <div class="grid gap-4 p-3 border border-border rounded-lg">
+
+                <div class="flex text-xs md:text-base">
+                    <label for="password">Mot de passe*</label>
+                    <input type="password" class="rounded border-2 p-2 border-border bg-inherit fill-transparent w-full" id="password">
+                </div>
+                <div class="flex text-xs md:text-base">
+                    <label for="text">Confirmation du mot de passe*</label>
+                    <input type="text" class="rounded border-2 p-2 border-border bg-inherit fill-transparent w-full" name="" id="password">
+                </div>
+
+                <!-- BTN ENREGISTRER -->
+            <div class="flex justify-center items-center p-3">
+                <input type="submit" class="text-text-button-hover font-medium text-sm md:text-xl bg-bg-button-hover m-2 p-2 rounded-lg w-max border border-border hover:text-txt-title hover:bg-bg-button hover:border-border" value="Enregistrer">
+            </div>
+
+        </div>
+
+        <!-- BTN INSCRIPTION -->
+        <div class="flex justify-center items-center p-3">
+            <input type="submit" class="text-text-button-hover font-medium text-sm md:text-xl bg-bg-button-hover m-2 p-2 rounded-lg w-max border border-border hover:text-txt-title hover:bg-bg-button hover:border-border" value="Finaliser l'inscription">
+        </div>
+
+    </main>    
+
+
+</body>
+</html>
